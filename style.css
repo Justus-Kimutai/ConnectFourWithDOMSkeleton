@@ -86,9 +86,12 @@ body{
   justify-content: center;
   flex-direction: column;
 }
+.heading{
+  margin-top: 100px;
+}
 
 .character_box{
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
   display: flex;
 
@@ -161,8 +164,6 @@ input:focus{
       border: none;
   }
   .IntroScreen{
-    padding: 10em;
-
-    /* color: rgb(240, 253, 253); */
+    padding:0 8em;
   }
 }
