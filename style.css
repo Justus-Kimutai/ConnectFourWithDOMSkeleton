@@ -86,9 +86,7 @@ body{
   justify-content: center;
   flex-direction: column;
 }
-.heading{
-  margin-top: 100px;
-}
+
 
 .character_box{
   margin-top: 10px;
@@ -153,6 +151,10 @@ input:focus{
 }
 
 @media(max-width:640px){
+  .heading{
+    margin-top: 3.5em;
+  }
+
   .container{
     margin: 0 auto;
     width: 510px;
